@@ -9,9 +9,9 @@ In order to use the planner, you'll need a device with internet connection, and 
 
 ## Getting Started
 
-I've included a screenshot of what the site looks like. The site is also linked below so feel free to take a look! 
-Please note the different aspects of the dynamically updating time-based interface, such as:
-- Date and day of week listed on header
+I've included a screenshot of what the site looks like. The site is also linked below so feel free to take a look. 
+Main features include:
+- Dynamically updated date and day of week listed on header
 - Any text input into one of the input fields remains after page reload
 ![Screenshot](https://i.imgur.com/DJt4Hi1.png)
 
