@@ -22,12 +22,10 @@ var saveBlock
 eventArr = [9, 10, 11, 12, 13, 14, 15, 16, 17]
 dateDisplay.text(dayTracker + ", " + dateTracker)
 
-
 saveBtn.on("click", function (event) {
-    var element = event.target; 
+    var element = event.target;
     console.log(element)
     userTask = $(element).siblings().children().val()
-    console.log($(element).siblings().children().val())
     var userHour = $(element).siblings().children().attr("id")
     console.log(userHour)
     localStorage.setItem(userHour, (userTask))
